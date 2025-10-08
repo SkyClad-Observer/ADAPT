@@ -36,6 +36,7 @@ opam pin add coq 8.17.0
 opam install coq-lsp coq-hammer
 
 # create switches for Coq 8.18, 8.19, 8.20 with similar commands
+# or refer to install.sh
 ```
 
 ```
