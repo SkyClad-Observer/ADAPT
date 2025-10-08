@@ -23,6 +23,21 @@ Coq proof generation benchmark
 Please refer to `dataset/project_name/eval_commits_theorems.json` for the theorems in each project.
 
 # Build 
+### Install Coq 
+```
+# create opam switch
+opam switch create coqllm8.17 5.1.0
+# set opam switch
+opam switch set coqllm8.17
+eval $(opam env --switch=coqllm8.17) 
+# install Coq
+opam pin add coq 8.17.0
+# install dependencies
+opam install coq-lsp coq-hammer
+
+# create switches for Coq 8.18, 8.19, 8.20 with similar commands
+```
+
 ```
 python -m build.run
 ```
