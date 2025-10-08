@@ -13,7 +13,7 @@ Adaptive Proof Refinement with LLM-Guided Strategy Selection
 conda env create adapt python=3.11
 
 # Create OPAM switch
-opam switch create adapt 5.3.0
+opam switch create adapt 5.1.0
 
 # Install Coq and libraries
 opam pin add coq 8.18.0
